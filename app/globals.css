@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+  background: #10b981;
+  color: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Objetivos táctiles grandes para tablet */
+@layer components {
+  .btn-touch {
+    @apply min-h-[64px] px-8 py-4 text-lg font-semibold rounded-2xl transition active:scale-[0.98];
+  }
+}
