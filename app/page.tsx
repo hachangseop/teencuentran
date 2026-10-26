@@ -52,8 +52,65 @@ const STEPS = [
 ];
 
 export default function Home() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://teencuentran.mx/#organizacion",
+        name: "TeEncuentran",
+        url: "https://teencuentran.mx/",
+        description:
+          "Auditoría y acciones automáticas para que restaurantes y cafés de la Ciudad de México aparezcan cuando la inteligencia artificial recomienda dónde comer.",
+        areaServed: { "@type": "City", name: "Ciudad de México" },
+        inLanguage: "es-MX",
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: [
+          {
+            "@type": "Question",
+            name: "¿Qué es TeEncuentran?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Es una auditoría continua y acciones automáticas para que tu restaurante o café aparezca cuando la inteligencia artificial recomienda dónde comer en CDMX: revisamos tu perfil de Google, generamos reseñas por WhatsApp y creamos contenido que la IA puede citar.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "¿Cuánto cuesta TeEncuentran?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Un precio simple: $499 MXN al mes por local, cancela cuando quieras. La beta incluye 2 meses gratis a cambio de tu testimonio.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "¿Cómo funciona?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "1) Diagnóstico gratis de 2 minutos con 6 preguntas. 2) Recibes tu puntaje de visibilidad sobre 100 y los 3 arreglos más urgentes. 3) Ejecutamos las mejoras semana a semana y medimos cuántas veces te menciona la IA.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "¿Por qué la inteligencia artificial no recomienda mi restaurante?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "La IA responde con los negocios que puede verificar y citar. Si tu información está incompleta, desactualizada o no tienes reseñas recientes, para la IA simplemente no existes. TeEncuentran detecta exactamente qué te impide aparecer y lo arregla.",
+            },
+          },
+        ],
+      },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
       <main>
         {/* HERO */}

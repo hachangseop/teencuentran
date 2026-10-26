@@ -3,6 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://teencuentran.mx"),
+  alternates: { canonical: "/" },
   title: {
     default: "TeEncuentran — ¿Te encuentran en ChatGPT?",
     template: "%s | TeEncuentran",

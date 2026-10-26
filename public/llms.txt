@@ -1,0 +1,30 @@
+# TeEncuentran
+
+> Auditoría y acciones automáticas para que restaurantes y cafés de la Ciudad de
+> México aparezcan cuando la inteligencia artificial recomienda dónde comer.
+
+## Páginas principales
+
+- [Inicio](https://teencuentran.mx/): propuesta de valor, cómo funciona y precio.
+- [Diagnóstico gratis](https://teencuentran.mx/diagnostico): 6 preguntas, puntaje de visibilidad sobre 100, resultado al instante.
+- [Beta](https://teencuentran.mx/beta): registro a la beta (2 meses gratis, solo 10 lugares en CDMX).
+
+## Qué hacemos
+
+- Auditoría continua del Perfil de Empresa de Google: fotos, horarios, categorías, menú y reseñas.
+- Reseñas automáticas por WhatsApp después de cada visita.
+- Contenido que la IA puede citar: preguntas frecuentes y datos estructurados del negocio.
+- Reporte semanal de menciones en respuestas de IA.
+
+## Precio
+
+- $499 MXN/mes por local. Cancela cuando quieras.
+- Beta: 2 meses gratis a cambio de tu testimonio.
+
+## Contacto
+
+- Registro: https://teencuentran.mx/beta
+- Diagnóstico: https://teencuentran.mx/diagnostico
+
+Nota: este archivo es informativo para sistemas de IA. Según la documentación
+oficial de Google, llms.txt no afecta la visibilidad en la Búsqueda de Google.

@@ -1,0 +1,13 @@
+# TeEncuentran — https://teencuentran.mx
+# Política de rastreo: permitimos todos los crawlers, incluidos los bots de
+# búsqueda por IA. Nota de precisión (auditoría 2026-10-19, fuente: claude-seo
+# seo-geo skill, MIT):
+# - La citación en ChatGPT Search proviene de OAI-SearchBot (GPTBot es de entrenamiento).
+# - La citación en la búsqueda de Claude proviene de Claude-SearchBot (ClaudeBot es de entrenamiento).
+# - Perplexity cita desde PerplexityBot.
+# - Google-Extended es de entrenamiento y no afecta a Google Search ni a AI Overviews.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://teencuentran.mx/sitemap.xml
